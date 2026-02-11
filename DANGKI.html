@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Kí - An Toàn Số</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .body{
+            zoom: 67%;
+        }
+    </style>
+</head>
+<body>
+   <!-- Navigation -->
+   <nav>
+       <div class="nav-container">
+           <ul class="nav-links">
+                <li><a href="https://forms.gle/u4S6DGQAbq4nN3bg9">Góp ý</a></li>
+                <li><a href="ThanhVien.html">Nhóm 4</a></li>           
+            </ul>
+           <a href="ANTOANSO.html" class="logo">
+               <div class="logo-icon">
+                <img id="img-logo" src="img/anh.png" alt="Logo">
+               </div>
+               <span>AN TOÀN SỐ</span>
+           </a>
+           <div class="nav-cta">
+               <ul class="nav-logins">
+                   <li><a href="DANGNHAP.html" class="cta-button">
+                       Đăng nhập
+                       <span class="button-shine"></span>
+                   </a></li>
+                   <li><a href="DANGKI.html" class="cta-button">
+                       Đăng kí
+                       <span class="button-shine"></span>
+                   </a></li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Đăng Kí Tài Khoản</h1>
+            <p class="hero-subtitle">Tạo tài khoản để trải nghiệm An Toàn Số</p>
+            <form action="" id="registerForm" class="register-form" method="POST">
+                <div class="form-group">
+                    <label for="contactType">Chọn phương thức liên hệ:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="email" name="contactType" value="email" checked>
+                        <label for="email">Email</label>
+                        <input type="radio" id="phone" name="contactType" value="phone">
+                        <label for="phone">Số điện thoại</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contact"></label>
+                    <input type="text" id="contact" name="contact" placeholder="Email hoặc số điện thoại" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Mật khẩu mới" pattern="^[A-Z].{11,}$" required title="Mật khẩu phải bắt đầu bằng chữ cái hoa và có ít nhất 12 ký tự">
+                </div>
+                <div class="form-group">
+                    <label for="fullname"></label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Họ Và Tên" required>
+                </div>
+                <div class="form-group">
+                    <label>Giới tính:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male" checked>
+                        <label for="male">Nam</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Nữ</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Khác</label>
+                    </div>
+                </div>
+                <a herf="DANGNHAP.html">
+                    <button type="submit" class="hero-cta">
+                        Đăng Kí
+                        <span class="button-shine"></span>
+                    </button>
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+        <div class="footer-content">
+            <div class="footer-logo">An Toàn Số</div>
+            <p class="footer-text">
+                Sản phẩm được lấy ý tưởng từ <a href="https://antoanso.org">An Toàn Số</a>
+            </p>
+            <div>
+                <a href="https://www.instagram.com/yang.loucus/" class="footer-email">YangLoucus</a>
+                <a href="https://www.instagram.com/whos.bread/" class="footer-email">Whosbread</a>
+                <a href="https://www.instagram.com/10_dnl.8/" class="footer-email">10_dnl.8</a>
+                <a href="https://www.instagram.com/nhc.na/" class="footer-email">Nhc.na</a>"
+            </div>
+            <div class="footer-copyright">
+                © CopyRight By DTM.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

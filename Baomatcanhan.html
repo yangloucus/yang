@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảo Mật Cá Nhân - An Toàn Số</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="https://forms.gle/u4S6DGQAbq4nN3bg9">Góp ý</a></li>
+                <li><a href="ThanhVien.html">Nhóm 4</a></li>
+            </ul>
+            <a href="Index.html" class="logo">
+                <div class="logo-icon">
+                    <img id="img-logo" src="img/anh.png" alt="Logo">
+                </div>
+                <span>AN TOÀN SỐ</span>
+            </a>
+            <div class="nav-cta">
+                <ul class="nav-logins">
+                    <li><a href="DANGNHAP.html" class="cta-button">
+                        Đăng nhập
+                        <span class="button-shine"></span>
+                    </a></li>
+                    <li><a href="DANGKI.html" class="cta-button">
+                        Đăng kí
+                        <span class="button-shine"></span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-nav">
+        <div class="content-nav-container">
+            <a href="Cacmoinguyhiem.html" class="content-nav-link-external">← Mối Đe Dọa Số</a>
+            <a href="#matkhau" class="content-nav-link active">Mật Khẩu Mạnh</a>
+            <a href="#2fa" class="content-nav-link">Xác Thực 2 Lớp</a>
+            <a href="#otp" class="content-nav-link">Mã OTP</a>
+            <a href="Tuduy.html" class="content-nav-link-external">Tư Duy An Toàn →</a>
+        </div>
+    </div>
+
+    <section class="hero hero-small">
+        <div class="hero-content">
+            <h1>Bảo Mật Cá Nhân</h1>
+            <p class="hero-subtitle">Xây dựng lớp phòng thủ vững chắc cho tài khoản của bạn</p>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div id="matkhau" class="content-section fade-in">
+            <div class="section-header">
+                <div class="section-icon">🔐</div>
+                <h2>Mật Khẩu Mạnh - Chìa Khóa Bảo Vệ Tài Khoản</h2>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Tại Sao Mật Khẩu Yếu Nguy Hiểm?</h3>
+                    <div class="video-container">
+                        <iframe src="video/Mật khẩu yếu.mp4" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="stats-box">
+                        <h4>📊 Thống Kê Đáng Báo Động:</h4>
+                        <div class="stat-item">
+                            <span class="stat-number">81%</span>
+                            <p>Vi phạm dữ liệu xảy ra do mật khẩu yếu hoặc bị đánh cắp</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">< 1 giây</span>
+                            <p>Thời gian hack mật khẩu "123456"</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">65%</span>
+                            <p>Người dùng sử dụng lại mật khẩu cho nhiều tài khoản</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card full-width">
+                    <h3>Cách Tạo Mật Khẩu Mạnh</h3>
+                    <div class="password-strength-demo">
+                        <div class="strength-example weak">
+                            <div class="example-header">
+                                <span class="strength-badge weak">❌ YẾU</span>
+                                <span class="example-password">vietnam123</span>
+                            </div>
+                            <div class="strength-bar">
+                                <div class="strength-fill weak"></div>
+                            </div>
+                            <p class="strength-time">Thời gian bẻ khóa: < 1 phút</p>
+                            <ul class="strength-issues">
+                                <li>Quá ngắn (chỉ 10 ký tự)</li>
+                                <li>Từ điển dễ đoán</li>
+                                <li>Không có ký tự đặc biệt</li>
+                            </ul>
+                        </div>
+
+                        <div class="strength-example medium">
+                            <div class="example-header">
+                                <span class="strength-badge medium">⚠️ TRUNG BÌNH</span>
+                                <span class="example-password">Vietnam@2024</span>
+                            </div>
+                            <div class="strength-bar">
+                                <div class="strength-fill medium"></div>
+                            </div>
+                            <p class="strength-time">Thời gian bẻ khóa: ~6 tháng</p>
+                            <ul class="strength-issues">
+                                <li>✓ Có chữ hoa, chữ thường, số, ký tự đặc biệt</li>
+                                <li>✗ Vẫn dùng từ điển</li>
+                                <li>✗ Mẫu dễ đoán (tên nước + năm)</li>
+                            </ul>
+                        </div>
+
+                        <div class="strength-example strong">
+                            <div class="example-header">
+                                <span class="strength-badge strong">✅ MẠNH</span>
+                                <span class="example-password">Tr@i_D4t!2x#Qu@y9km</span>
+                            </div>
+                            <div class="strength-bar">
+                                <div class="strength-fill strong"></div>
+                            </div>
+                            <p class="strength-time">Thời gian bẻ khóa: > 1000 năm</p>
+                            <ul class="strength-issues">
+                                <li>✓ Dài (18 ký tự)</li>
+                                <li>✓ Kết hợp từ ngẫu nhiên</li>
+                                <li>✓ Ký tự đặc biệt ở nhiều vị trí</li>
+                                <li>✓ Số xen kẽ không theo mẫu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Phương Pháp Tạo Mật Khẩu Dễ Nhớ Nhưng Khó Đoán</h3>
+                    <div class="method-cards">
+                        <div class="method-card">
+                            <h4>🎵 Phương Pháp Câu Hát</h4>
+                            <p class="method-desc">Lấy chữ cái đầu của mỗi từ trong câu hát yêu thích</p>
+                            <div class="method-example">
+                                <p class="example-text">"Trên đỉnh núi cao tôi vẫn hát bài ca yêu đời"</p>
+                                <p class="arrow">↓</p>
+                                <p class="example-result">Td<span class="highlight">N</span>c<span class="highlight">T</span>vh<span class="highlight">B</span>c<span class="highlight">Y</span>d@2024!</p>
+                            </div>
+                        </div>
+
+                        <div class="method-card">
+                            <h4>🔢 Phương Pháp Thay Thế</h4>
+                            <p class="method-desc">Thay chữ bằng số và ký tự đặc biệt</p>
+                            <div class="method-example">
+                                <p class="example-text">Hanoi_Viet_Nam</p>
+                                <p class="arrow">↓</p>
+                                <p class="example-result">H<span class="highlight">4</span>n<span class="highlight">0</span>i_Vi<span class="highlight">3</span>t_N<span class="highlight">@</span>m!<span class="highlight">24</span></p>
+                                <p class="note">a→4, o→0, e→3, a→@</p>
+                            </div>
+                        </div>
+
+                        <div class="method-card">
+                            <h4>🎲 Phương Pháp Từ Ngẫu Nhiên</h4>
+                            <p class="method-desc">Kết hợp 4-5 từ không liên quan với ký tự đặc biệt</p>
+                            <div class="method-example">
+                                <p class="example-text">Mèo + Cà Phê + Núi + Tím</p>
+                                <p class="arrow">↓</p>
+                                <p class="example-result">M<span class="highlight">3</span>o#C<span class="highlight">@</span>Phe*Nui!T<span class="highlight">1</span>m<span class="highlight">99</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Công Cụ Quản Lý Mật Khẩu</h3>
+                    <div class="image-container">
+                        <img src="img/o khoa.jpg" alt="Password Manager">
+                    </div>
+                    <p>Trình quản lý mật khẩu giúp bạn:</p>
+                    <ul class="content-list">
+                        <li>Tạo mật khẩu mạnh và duy nhất cho mỗi tài khoản</li>
+                        <li>Lưu trữ an toàn tất cả mật khẩu</li>
+                        <li>Tự động điền mật khẩu khi đăng nhập</li>
+                        <li>Đồng bộ giữa các thiết bị</li>
+                    </ul>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <h5>1Password</h5>
+                            <p>Phổ biến, giao diện đẹp, có bản gia đình</p>
+                        </div>
+                        <div class="tool-item">
+                            <h5>Bitwarden</h5>
+                            <p>Mã nguồn mở, miễn phí, đầy đủ tính năng</p>
+                        </div>
+                        <div class="tool-item">
+                            <h5>LastPass</h5>
+                            <p>Dễ sử dụng, có bản miễn phí giới hạn</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Các Lỗi Thường Gặp Cần Tránh</h3>
+                    <div class="mistakes-grid">
+                        <div class="mistake-item">
+                            <span class="mistake-icon">❌</span>
+                            <h4>Dùng Chung 1 Mật Khẩu</h4>
+                            <p>Nếu 1 tài khoản bị hack, TẤT CẢ tài khoản đều nguy hiểm</p>
+                        </div>
+                        <div class="mistake-item">
+                            <span class="mistake-icon">❌</span>
+                            <h4>Thông Tin Cá Nhân</h4>
+                            <p>Tên, ngày sinh, số điện thoại dễ bị đoán qua mạng xã hội</p>
+                        </div>
+                        <div class="mistake-item">
+                            <span class="mistake-icon">❌</span>
+                            <h4>Ghi Vào Giấy</h4>
+                            <p>Giấy ghi mật khẩu dễ bị mất hoặc người khác nhìn thấy</p>
+                        </div>
+                        <div class="mistake-item">
+                            <span class="mistake-icon">❌</span>
+                            <h4>Lưu Vào Ghi Chú</h4>
+                            <p>Nếu điện thoại bị mất, tất cả mật khẩu bị lộ</p>
+                        </div>
+                        <div class="mistake-item">
+                            <span class="mistake-icon">❌</span>
+                            <h4>Không Đổi Định Kỳ</h4>
+                            <p>Mật khẩu cũ có thể đã bị lộ mà bạn không biết</p>
+                        </div>
+                        <div class="mistake-item">
+                            <span class="mistake-icon">❌</span>
+                            <h4>Chia Sẻ Mật Khẩu</h4>
+                            <p>Bạn bè, người thân cũng có thể vô tình làm lộ mật khẩu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="2fa" class="content-section fade-in">
+            <div class="section-header">
+                <div class="section-icon">🛡️</div>
+                <h2>Xác Thực 2 Lớp (2FA) - Lá Chắn Thứ Hai</h2>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>2FA Là Gì?</h3>
+                    <div class="video-container">
+                        <iframe src="video/Bảo mật 2 lớp.mp4" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Tại Sao 2FA Quan Trọng?</h3>
+                    <div class="image-container">
+                        <img src="img/may tinh.jpg" alt="Two Factor Authentication">
+                    </div>
+                    <div class="comparison-box">
+                        <div class="comparison-col">
+                            <h4>❌ KHÔNG CÓ 2FA</h4>
+                            <p>Hacker chỉ cần mật khẩu là có thể truy cập</p>
+                            <div class="hack-scenario bad">
+                                <p>1. Hack được mật khẩu ✓</p>
+                                <p>2. Đăng nhập thành công ✓</p>
+                                <p class="result danger">→ Tài khoản bị chiếm!</p>
+                            </div>
+                        </div>
+                        <div class="comparison-col">
+                            <h4>✅ CÓ 2FA</h4>
+                            <p>Cần cả mật khẩu VÀ điện thoại của bạn</p>
+                            <div class="hack-scenario good">
+                                <p>1. Hack được mật khẩu ✓</p>
+                                <p>2. Cần mã từ điện thoại ✗</p>
+                                <p class="result safe">→ Tài khoản AN TOÀN!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <h3>Backup Codes - Kế Hoạch Dự Phòng</h3>
+                    <div class="backup-info">
+                        <p>Khi bật 2FA, bạn sẽ nhận được <strong>Mã dự phòng (Backup Codes)</strong> - những mã dùng một lần để đăng nhập khi:</p>
+                        <ul class="content-list">
+                            <li>Mất điện thoại</li>
+                            <li>Không có mạng</li>
+                            <li>App xác thực bị lỗi</li>
+                        </ul>
+                    </div>
+                    <div class="warning-box">
+                        <h4>⚠️ QUAN TRỌNG:</h4>
+                        <ul class="content-list">
+                            <li>In ra hoặc lưu vào nơi an toàn (không phải điện thoại)</li>
+                            <li>Mỗi mã chỉ dùng được 1 lần</li>
+                            <li>Nếu dùng hết, tạo mã mới ngay</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="otp" class="content-section fade-in">
+            <div class="section-header">
+                <div class="section-icon">🔢</div>
+                <h2>Mã OTP - Bảo Vệ Giao Dịch Của Bạn</h2>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>OTP Là Gì?</h3>
+                    <div class="image-container">
+                        <img src="img/otp.jpg" alt="OTP Security">
+                    </div>
+                    <div class="otp-example">
+                        <div class="otp-message">
+                            <p><strong>OTP (One-Time Password)</strong> là mật khẩu sử dụng một lần, thường là dãy 6 số, có hiệu lực trong thời gian ngắn (30-60 giây đến 5 phút).</p>
+                            <p class="otp-header">Tin nhắn OTP từ ngân hàng:</p>
+                            <p class="otp-content">"Ma xac thuc cua Quy khach la <strong class="otp-code">123456</strong>. Ma co hieu luc trong 5 phut. KHONG chia se ma nay voi bat ky ai."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>OTP Được Dùng Khi Nào?</h3>
+                    <div class="otp-usage">
+                        <div class="usage-item">
+                            <span class="usage-icon">💳</span>
+                            <h4>Giao Dịch Ngân Hàng</h4>
+                            <p>Chuyển tiền, thanh toán online, rút tiền ATM (không có thẻ)</p>
+                        </div>
+                        <div class="usage-item">
+                            <span class="usage-icon">🔐</span>
+                            <h4>Đăng Nhập</h4>
+                            <p>Xác nhận đăng nhập từ thiết bị mới hoặc vị trí lạ</p>
+                        </div>
+                        <div class="usage-item">
+                            <span class="usage-icon">🔄</span>
+                            <h4>Đổi Thông Tin</h4>
+                            <p>Thay đổi mật khẩu, số điện thoại, email liên kết</p>
+                        </div>
+                        <div class="usage-item">
+                            <span class="usage-icon">🛒</span>
+                            <h4>Mua Hàng Online</h4>
+                            <p>Xác nhận thanh toán khi mua sắm trên các sàn TMĐT</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card full-width">
+                    <h3>⚠️ CÁC THỦ ĐOẠN LỪA ĐẢO LẤY MÃ OTP</h3>
+                    <div class="video-container">
+                        <iframe src="/video.Lừa lấy mã.mp4" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="scam-scenarios">
+                        <div class="scam-scenario">
+                            <div class="scenario-header danger">
+                                <span class="scenario-icon">☎️</span>
+                                <h4>Kịch Bản 1: Giả Mạo Nhân Viên Ngân Hàng</h4>
+                            </div>
+                            <div class="scenario-content">
+                                <div class="dialogue">
+                                    <p class="scammer"><strong>Lừa đảo:</strong> "Chào anh/chị, em là nhân viên Vietcombank. Tài khoản của anh/chị đang có giao dịch bất thường 50 triệu. Em cần xác minh thông tin."</p>
+                                    <p class="victim"><strong>Nạn nhân:</strong> "Thật à? Nhưng tôi không giao dịch gì cả!"</p>
+                                    <p class="scammer"><strong>Lừa đảo:</strong> "Vâng, có thể tài khoản của anh/chị bị hack. Anh/chị vui lòng cung cấp mã OTP vừa nhận để em khóa giao dịch giúp."</p>
+                                    <p class="victim"><strong>Nạn nhân:</strong> "Mã là 385729 đúng không?"</p>
+                                    <p class="scammer"><strong>Lừa đảo:</strong> "Vâng, em đã khóa giao dịch thành công!" <em>(Thực tế: Đang chuyển tiền đi)</em></p>
+                                </div>
+                                <div class="warning-box">
+                                    <p><strong>🚨 CẢNH BÁO:</strong> Ngân hàng KHÔNG BAO GIỜ hỏi mã OTP qua điện thoại!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="scam-scenario">
+                            <div class="scenario-header danger">
+                                <span class="scenario-icon">🎁</span>
+                                <h4>Kịch Bản 2: Giả Mạo Chương Trình Khuyến Mãi</h4>
+                            </div>
+                            <div class="scenario-content">
+                                <div class="fake-message">
+                                    <p><strong>Tin nhắn nhận được:</strong></p>
+                                    <p class="message-content">"🎉 Chúc mừng! Bạn trúng thưởng iPhone 15 Pro Max từ Shopee. Nhận quà tại: shopee-gift.com. Nhập mã OTP để xác nhận địa chỉ nhận quà."</p>
+                                </div>
+                                <p class="scam-explain">→ Khi bạn nhập OTP, họ dùng để:</p>
+                                <ul class="content-list">
+                                    <li>Đăng nhập tài khoản ngân hàng của bạn</li>
+                                    <li>Xác nhận giao dịch chuyển tiền</li>
+                                    <li>Chiếm quyền điều khiển tài khoản</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="scam-scenario">
+                            <div class="scenario-header danger">
+                                <span class="scenario-icon">👮</span>
+                                <h4>Kịch Bản 3: Giả Mạo Cơ Quan Công An</h4>
+                            </div>
+                            <div class="scenario-content">
+                                <div class="dialogue">
+                                    <p class="scammer"><strong>Lừa đảo:</strong> "Đây là Công an TP.HCM. Anh/chị có liên quan đến vụ án rửa tiền. Để chứng minh vô tội, anh/chị cần chuyển tiền vào tài khoản an toàn do cơ quan quản lý."</p>
+                                    <p class="scammer"><strong>Lừa đảo:</strong> "Anh/chị sẽ nhận được mã OTP, đọc cho tôi để hoàn tất thủ tục."</p>
+                                </div>
+                                <div class="warning-box">
+                                    <p><strong>🚨 SỰ THẬT:</strong> Công an KHÔNG BAO GIỜ yêu cầu chuyển tiền hay cung cấp OTP qua điện thoại!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>NGUYÊN TẮC VÀNG VỀ OTP</h3>
+                    <div class="golden-rules-otp">
+                        <div class="rule-otp critical">
+                            <span class="rule-number">1</span>
+                            <div class="rule-content">
+                                <h4>🚫 KHÔNG BAO GIỜ chia sẻ mã OTP</h4>
+                                <p>Với BẤT KỲ AI, dù là nhân viên ngân hàng, công an, bạn bè, người thân</p>
+                            </div>
+                        </div>
+                        <div class="rule-otp critical">
+                            <span class="rule-number">2</span>
+                            <div class="rule-content">
+                                <h4>🔍 ĐỌC KỸ nội dung tin nhắn OTP</h4>
+                                <p>Kiểm tra xem giao dịch có phải do BẠN thực hiện không</p>
+                            </div>
+                        </div>
+                        <div class="rule-otp critical">
+                            <span class="rule-number">3</span>
+                            <div class="rule-content">
+                                <h4>⏰ Chú ý thời gian hiệu lực</h4>
+                                <p>OTP chỉ có hiệu lực vài phút. Nếu không giao dịch, BỎ QUA</p>
+                            </div>
+                        </div>
+                        <div class="rule-otp critical">
+                            <span class="rule-number">4</span>
+                            <div class="rule-content">
+                                <h4>📞 GỌI HOTLINE chính thức</h4>
+                                <p>Nếu nghi ngờ, gọi tổng đài ngân hàng để xác minh (số ghi trên thẻ ATM)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+        <div class="footer-content">
+            <div class="footer-logo">An Toàn Số</div>
+            <p class="footer-text">
+                Sản phẩm được lấy ý tưởng từ <a href="https://antoanso.org" target="_blank">An Toàn Số</a>
+            </p>
+            <div>
+                <a href="https://www.instagram.com/yang.loucus/" class="footer-email">YangLoucus</a>
+                <a href="https://www.instagram.com/whos.bread/" class="footer-email">Whosbread</a>
+                <a href="https://www.instagram.com/10_dnl.8/" class="footer-email">10_dnl.8</a>
+                <a href="https://www.instagram.com/nhc.na/" class="footer-email">Nhc.na</a>"
+            </div>
+            <div class="footer-copyright">
+                © CopyRight By YangLoucus.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
